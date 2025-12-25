@@ -19,3 +19,8 @@ checkupdates --nocolor | gawk -f checkupdates-colorized.awk
 1. `gawk`
 2. `pacman-contrib`
 3. `expac`
+
+
+### Example
+
+![Example](https://github.com/user-attachments/assets/e7788a7a-2a26-4c9c-8508-224cd92533df)
