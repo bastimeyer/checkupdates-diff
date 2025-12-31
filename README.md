@@ -1,4 +1,4 @@
-checkupdates-colorized
+checkupdates-diff
 ====
 
 A simple GNU Awk script which turns the output of Arch Linux's `checkupdates` utility (`pacman-contrib`) into a format that's easier to read and interpret.
@@ -11,7 +11,7 @@ The format is similar to `yay`'s verbose package format:
 - It counts the number of out-of-date packages
 
 ```sh
-checkupdates --nocolor | gawk -f checkupdates-colorized.awk
+checkupdates --nocolor | gawk -f checkupdates-diff.awk
 ```
 
 **Dependencies:**
@@ -23,4 +23,4 @@ checkupdates --nocolor | gawk -f checkupdates-colorized.awk
 
 ### Example
 
-![Example](https://github.com/user-attachments/assets/e7788a7a-2a26-4c9c-8508-224cd92533df)
+![Example](https://github.com/user-attachments/assets/31f15326-c1d4-4f8e-a9a8-e349e96b8797)
