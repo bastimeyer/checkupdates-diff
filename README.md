@@ -13,7 +13,7 @@ The format is similar to `yay`'s verbose package format:
 ## Install
 
 ```sh
-git clone https://github.com/bastimeyer/checkupdates-diff.git
+git clone --branch=aur https://github.com/bastimeyer/checkupdates-diff.git
 cd checkupdates-diff
 makepkg -si
 ```
