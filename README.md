@@ -12,11 +12,15 @@ The format is similar to `yay`'s verbose package format:
 
 ## Install
 
+Run `makepkg -si` from the repo's `aur` branch:
+
 ```sh
 git clone --branch=aur https://github.com/bastimeyer/checkupdates-diff.git
 cd checkupdates-diff
 makepkg -si
 ```
+
+Or install [`checkupdates-diff-git`](https://aur.archlinux.org/packages/checkupdates-diff-git) from the AUR.
 
 ## Usage
 
